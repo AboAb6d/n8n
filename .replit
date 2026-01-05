@@ -1,1 +1,1 @@
-run = "npx n8n start --port $PORT"
+run = "npm install -g n8n && echo 'n8n installed successfully' && npx n8n start --port $PORT"
